@@ -92,7 +92,7 @@ There isnt a option on windows to  download the correct version of mac
 [](https://github.com/RobyRew/MSI_X570_A-Pro_Hackintosh_OpenCore)https://github.com/RobyRew/MSI_X570_A-Pro_Hackintosh_OpenCore
 
 NootRX to give support on NAVI 21 22 23 arquitectures 
-[](https://github.com/ChefKissInc/NootRX)https://github.com/ChefKissInc/NootRX
+[](https://github.com/ChefKissInc/NootRX)
 
 ---
 
