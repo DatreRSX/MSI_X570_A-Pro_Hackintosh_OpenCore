@@ -8,7 +8,7 @@
 | Motherboard:  | Msi A-Pro X570 |
 | CPU: | AMD Ryzen 5 5600X |
 | GPU: | Msi Mech 6700XT 12GB |
-| Memory: | vengeance 16gb 3200MHz 16GB x4|
+| Memory: | Vengeance 16gb 3200MHz 16GB x4|
 | Audio: | Realtek ALC1220 |
 | Ethernet: | Realtek 8111H |
 | Power Supply: | NOX URANO 650W |
@@ -30,6 +30,19 @@ These are all the external ports of the Motherboard. (**They all work**):
 - Continuity Features
 - Some software due the limitations of an AMD CPU.
 
+## Important
+---
+Due to a NootRX bug, your installation will not boot on installation and first boot, you will have to perform installation and first boot without graphics acceleration (enable whatgreen kext in config.plist)
+
+Whatevergreen kext will not be in this repository so you will have to download it, in addition to adding it to your config.plist
+
+[](https://github.com/acidanthera/WhateverGreen)
+
+**DO NOT USE Whatevergreen and NootRX at the same time, these two kexts are incompatible if run at the same time**
+
+Once the installation is finished, delete Whateveergreen kext from the kexts folder and its config.plist, you won't need it anymore.
+Once you have entered the desktop for the first time you can enable NootRX kext in config.plist
+---
 
 # INSTALLATION GUIDE
 
@@ -62,20 +75,6 @@ There isnt a option on windows to  download the correct version of mac
 # BIOS Settings:
 - Make Sure you have [Latest BIOS](https://www.msi.com/Motherboard/support/X570-A-PRO#down-bios)
 - After Updating the BIOS, you need some configuration to working.
-
----
-
-# OpenCore Configuration
-
-## [Here it's my config.plist and the explanation:](Docs/config.plist.md)
-#### [ACPI](Docs/config.plist.md#acpi)
-#### [Booter](Docs/config.plist.md#booter)
-#### [DeviceProperties](Docs/config.plist.md#deviceproperties)
-#### [Kernel](Docs/config.plist.md#kernel)
-#### [Misc](Docs/config.plist.md#misc)
-#### [NVRAM](Docs/config.plist.md#nvram)
-#### [PlatformInfo](Docs/config.plist.md#platforminfo)
-#### [UEFI](Docs/config.plist.md#uefi)
 
 ---
 
