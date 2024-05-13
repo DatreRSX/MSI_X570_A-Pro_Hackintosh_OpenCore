@@ -48,14 +48,6 @@ Once you have entered the desktop for the first time you can enable NootRX kext 
 
 ---
 
-## Use this for download macOS 
-
-**For now NOT download lastest sonoma , download 14.3.1**
-
-https://github.com/ninxsoft/Mist
-
-There isnt a option on windows to  download the correct version of mac
-
 ## Making the Booteable USB
 
 ### From macOS:
