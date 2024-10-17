@@ -1,6 +1,7 @@
 # Hackintosh Guide for **MSI X570 A-Pro Motherboard**
 
 **This guide it's updated to OpenCore 0.9.8 and tested on Sonoma**
+
 Now Works with Seqoia ,must update kext and kernel patches
 ## Specs:
 | Component | Brand |
